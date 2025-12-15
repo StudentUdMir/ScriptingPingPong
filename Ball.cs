@@ -17,7 +17,7 @@ public class Ball : MonoBehaviour
 
         float x = Random.Range(-5f, 5f);
         float z = Random.Range(-5f, 5f);
-        rb.velocity = new Vector3(x, 0, 5f);
+        rb.velocity = new Vector3(x, 0, z);
 
         points1 = 0;
         points2 = 0;
@@ -37,3 +37,4 @@ public class Ball : MonoBehaviour
         }
     }
 }
+
